@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
   // insertion(a,N);
 
   // selectionSort(a,N);
-  // display(prime, N);
+  display(prime, N);
   return 0;
 }
 
