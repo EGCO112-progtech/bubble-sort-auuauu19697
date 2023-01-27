@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
     }
   }
   if (j == 0)
-    printf("No Prime\n");
+    printf("No prime\n");
   else {
     N = j;
     display(prime, N);
