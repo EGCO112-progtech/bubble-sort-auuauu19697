@@ -1,6 +1,6 @@
-#include "sorting.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "sorting.h"
 int IsPrime(int);
 int main(int argc, char *argv[]) {
   int *a, j = 0;
@@ -30,7 +30,8 @@ int main(int argc, char *argv[]) {
 }
 
 int IsPrime(int a) {
-  if (a == 1) return 0;
+  if (a == 1)
+    return 0;
   for (int i = 2; i < a; i++) {
     if (a % i == 0)
       return 0;

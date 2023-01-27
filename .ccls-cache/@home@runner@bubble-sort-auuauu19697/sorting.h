@@ -1,5 +1,4 @@
 // selection sort function module in C
-
 void display(int a[], int n) {
 
   int i;
