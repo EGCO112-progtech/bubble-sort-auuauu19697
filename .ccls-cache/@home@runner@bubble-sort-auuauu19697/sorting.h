@@ -36,8 +36,9 @@ void bubbleSort(int a[], int n) {
         swap(&a[j], &a[j + 1]);
         sorted = 1;
       } 
+      display(a, n);
     }
-    display(a, n);
+    
     if(sorted == 0)break;
   }
 }
