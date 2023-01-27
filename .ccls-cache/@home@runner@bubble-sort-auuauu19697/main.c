@@ -30,12 +30,10 @@ int main(int argc, char *argv[]) {
 }
 
 int IsPrime(int a) {
-  if (a == 1)
-    return 0;
-  int prime = 1;
+  if (a == 1) return 0;
   for (int i = 2; i < a; i++) {
     if (a % i == 0)
       return 0;
   }
-  return prime;
+  return 1;
 }
